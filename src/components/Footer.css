@@ -1,0 +1,22 @@
+.footer {
+  text-align: center;
+  padding: 1rem 1rem;
+  background: #ffa500;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.social-icons i {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #333;
+}

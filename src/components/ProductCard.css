@@ -1,0 +1,39 @@
+.product-card{
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rbga(0,0,0,0.1);
+} 
+
+.product-card:hover{
+  transition: translateY(-5);
+}
+
+.product-card img{
+  width: 100%;
+  height: 250px;
+  object-fit:cover;
+}
+
+.product-card h3{
+  margin:10px 0;
+}
+
+.product-card p{
+  color:#555;
+  margin-bottom:10px;
+}
+
+.product-card button{
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3 ease;
+}
+
+.product-card button:hover{
+  background-color: #555;
+}

@@ -1,0 +1,71 @@
+.checkout-page {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.checkout-content {
+  display: flex;
+  gap: 2rem;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
+
+.checkout-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.place-order-btn {
+  background: black;
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+.checkout-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.checkout-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.order-summary {
+  flex: 1;
+  background: #fafafa;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.checkout-form {
+  flex: 1;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.checkout-btn{
+  background-color: #ff8c42;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s;
+}

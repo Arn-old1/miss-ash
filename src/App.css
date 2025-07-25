@@ -1,0 +1,24 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color:orange;
+  position:sticky;
+  top: 0;
+  z-index: 100;
+}
+ .logo{
+  font-size:24px;
+  font-weight: bold;
+  color:pink;
+}
+
+.nav-link{
+  text-decoration: none;
+  color:#333;
+  font-weight: 500;
+}
+html{
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,29 @@
+.hero{
+  height: 80vh;
+  background-image: url('/src/assets1/wall.PNG');
+  background-size:cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  text-align: center;
+}
+
+.hero-content h1{
+  font-size:1.2rem;
+  margin-bottom:30px;
+}
+
+.shop-now-btn{
+  padding: 10px 30px;
+  background-color:black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3 ease;
+}
+
+.shop-now-btn:hover{
+  background-color: #555;
+}
