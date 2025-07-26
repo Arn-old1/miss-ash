@@ -12,7 +12,7 @@ const products = [
     priceUGX: 330000,
     priceUSD: 92.10,
     category: 'Dresses',
-    image: '/assets/images/cocktail-dress.webp',
+    image: process.env.PUBLIC_URL + '/assets/images/cocktail-dress.webp',
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const products = [
     priceUGX: 210000,
     priceUSD: 58.61,
     category: 'Dresses',
-    image: '/assets/images/solid-Wrap-dress.jpg',
+    image: process.env.PUBLIC_URL + '/assets/images/solid-Wrap-dress.jpg',
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const products = [
     priceUGX: 120000,
     priceUSD: 33.49,
     category: 'Dresses',
-    image: '${process.env.PUBLIC_URL}/assets/images/shirt-dress.jpg',
+    image: process.env.PUBLIC_URL + '/assets/images/shirt-dress.jpg',
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const products = [
     priceUGX: 130000,
     priceUSD: 36.28,
     category: 'shorts',
-    image: '${process.env.PUBLIC_URL}/assets/images/bubble-Shorts.webp',
+    image: process.env.PUBLIC_URL + '/assets/images/bubble-shorts.webp',
   },
   {
   id: 5,
@@ -44,7 +44,7 @@ const products = [
   priceUGX: 120000,
   priceUSD: 33.49,
   category: 'shorts',
-  image: '${process.env.PUBLIC_URL}/assets/images/linga-shorts.webp',
+  image: process.env.PUBLIC_URL + '/assets/images/linga-shorts.webp',
   },
   {
     id: 6,
@@ -52,7 +52,7 @@ const products = [
     priceUGX: 150000,
     priceUSD: 41.86,
     category: 'jumpsuit',
-    image: '${process.env.PUBLIC_URL}/assets/images/V-jumpsuit.webp',
+    image: process.env.PUBLIC_URL + '/assets/images/v-jumpsuit.webp',
     },
     {
       id: 7,
@@ -60,7 +60,7 @@ const products = [
       priceUGX: 200000,
       priceUSD: 55.82,
       category: 'jumpsuit',
-      image: '${process.env.PUBLIC_URL}/assets/images/Jude-Jumpsuit-.webp',
+      image: process.env.PUBLIC_URL + '/assets/images/jude-jumpsuit-.webp',
       },
       {
         id: 8,
@@ -68,7 +68,7 @@ const products = [
         priceUGX: 320000,
         priceUSD: 89.31,
         category: 'Set',
-        image: '${process.env.PUBLIC_URL}/assets/images/floral-red-beach-set.webp',
+        image: process.env.PUBLIC_URL + '/assets/images/floral-red-beach-set.webp',
         },
         {
           id: 9,
@@ -76,7 +76,7 @@ const products = [
           priceUGX: 150000,
           priceUSD: 41.86,
           category: 'jumpsuit',
-          image: '${process.env.PUBLIC_URL}/assets/images/blend-smocked-jumpsuit.webp',
+          image: process.env.PUBLIC_URL + '/assets/images/blend-smocked-jumpsuit.webp',
           },
           {
             id: 10,
@@ -84,7 +84,7 @@ const products = [
             priceUGX: 180000,
             priceUSD: 50.24,
             category: 'Dresses',
-            image: '${process.env.PUBLIC_URL}/assets/images/cheetah-gown-top.jpg',
+            image: process.env.PUBLIC_URL + '/assets/images/cheetah-gown-top.jpg',
             },
             {
               id: 11,
@@ -92,7 +92,7 @@ const products = [
               priceUGX: 190000,
               priceUSD: 53.03,
               category: 'jumpsuit',
-              image: '${process.env.PUBLIC_URL}/assets/images/LEEVLESS-JUMPSUIT.jpg',
+              image: process.env.PUBLIC_URL + '/assets/images/lEEVLESS-jUMPSUIT.jpg',
               },
               {
                 id: 12,
@@ -100,7 +100,7 @@ const products = [
                 priceUGX: 170000,
                 priceUSD: 47.45,
                 category: 'jumpsuit',
-                image: '${process.env.PUBLIC_URL}/assets/images/Striped-tie-waist-jumpsuit.webp',
+                image: process.env.PUBLIC_URL + '/assets/images/striped-tie-waist-jumpsuit.webp',
                 },
                 {
                   id: 13,
@@ -108,7 +108,7 @@ const products = [
                   priceUGX: 140000,
                   priceUSD: 39.07,
                   category: 'shorts',
-                  image: '${process.env.PUBLIC_URL}/assets/images/Suki-linen-shorts.webp',
+                  image: process.env.PUBLIC_URL + '/assets/images/suki-linen-shorts.webp',
                   },
                   {
                     id: 14,
@@ -116,7 +116,7 @@ const products = [
                     priceUGX: 230000,
                     priceUSD: 64.19,
                     category: 'Dresses',
-                    image: '${process.env.PUBLIC_URL}/assets/images/Hem-Midi-Dress.webp',
+                    image: process.env.PUBLIC_URL + '/assets/images/hem-midi-dress.webp',
                     },
                     {
                       id: 15,
@@ -124,7 +124,7 @@ const products = [
                       priceUGX: 380000,
                       priceUSD: 106.05,
                       category: 'Set',
-                      image: '${process.env.PUBLIC_URL}/assets/images/coord.webp',
+                      image: process.env.PUBLIC_URL + '/assets/images/coord.webp',
                       },
                       {
                         id: 16,
@@ -132,7 +132,7 @@ const products = [
                         priceUGX: 175000,
                         priceUSD: 48.84,
                         category: 'shorts',
-                        image: '${process.env.PUBLIC_URL}/assets/images/lilley-linen-belted-shorts-.jpg',
+                        image: process.env.PUBLIC_URL + '/assets/images/lilley-linen-belted-shorts-.jpg',
                         },
                         {
                           id: 17,
@@ -140,7 +140,7 @@ const products = [
                           priceUGX: 190000,
                           priceUSD: 53.03,
                           category: 'Trouser',
-                          image: '${process.env.PUBLIC_URL}/assets/images/orange.jpg',
+                          image: process.env.PUBLIC_URL + '/assets/images/orange.jpg',
                           },
                           {
                             id: 18,
@@ -148,7 +148,7 @@ const products = [
                             priceUGX: 110000,
                             priceUSD: 30.70,
                             category: 'Dresses',
-                            image: '${process.env.PUBLIC_URL}/assets/images/mini-floral-dress.webp',
+                            image: process.env.PUBLIC_URL + '/assets/images/mini-floral-dress.webp',
                             },
                             {
                               id: 19,
@@ -156,7 +156,7 @@ const products = [
                               priceUGX: 250000,
                               priceUSD: 69.77,
                               category: 'Set',
-                              image: '${process.env.PUBLIC_URL}/assets/images/co-ord-set.webp',
+                              image: process.env.PUBLIC_URL + '/assets/images/co-ord-set.webp',
                               },
                               {
                                 id: 20,
@@ -164,7 +164,7 @@ const products = [
                                 priceUGX: 100000,
                                 priceUSD: 27.91,
                                 category: 'shorts',
-                                image: '${process.env.PUBLIC_URL}/assets/images/Maya-high-Waisted-short.webp',
+                                image: process.env.PUBLIC_URL + '/assets/images/maya-high-waisted-short.webp',
                                 },
                                 {
                                   id: 21,
@@ -172,7 +172,7 @@ const products = [
                                   priceUGX: 280000,
                                   priceUSD: 78.15,
                                   category: 'Dresses',
-                                  image: '${process.env.PUBLIC_URL}/assets/images/Orange-ombre-dress.jpg',
+                                  image: process.env.PUBLIC_URL + '/assets/images/orange-ombre-dress.jpg',
                                   },
                                   {
                                     id: 22,
@@ -180,7 +180,7 @@ const products = [
                                     priceUGX: 160000,
                                     priceUSD: 44.65,
                                     category: 'Trousers',
-                                    image: '${process.env.PUBLIC_URL}/assets/images/Harlequin-Cardinal-Red-trouser.webp',
+                                    image: process.env.PUBLIC_URL + '/assets/images/harlequin-cardinal-red-trouser.webp',
                                     },
                                     {
                                       id: 23,
@@ -188,7 +188,7 @@ const products = [
                                       priceUGX: 180000,
                                       priceUSD: 50.24,
                                       category: 'Trousers',
-                                      image: '${process.env.PUBLIC_URL}/assets/images/scarlet-straight-trousers.webp',
+                                      image: process.env.PUBLIC_URL + '/assets/images/scarlet-straight-trousers.webp',
                                       },
                                       {
                                         id: 24,
@@ -196,7 +196,7 @@ const products = [
                                         priceUGX: 200000,
                                         priceUSD: 55.82,
                                         category: 'Trousers',
-                                        image: '${process.env.PUBLIC_URL}/assets/images/bsb-trouser.webp',
+                                        image: process.env.PUBLIC_URL + '/assets/images/bsb-trouser.webp',
                                         },
                                         {
                                           id: 25,
@@ -204,7 +204,7 @@ const products = [
                                           priceUGX: 200000,
                                           priceUSD: 55.82,
                                           category: 'Trousers',
-                                          image: '${process.env.PUBLIC_URL}/assets/images/black-stain-high-waist.avif',
+                                          image: process.env.PUBLIC_URL + '/assets/images/black-stain-high-waist.avif',
                                           }
 
 
