@@ -20,7 +20,7 @@ const products = [
     priceUGX: 210000,
     priceUSD: 58.61,
     category: 'Dresses',
-    image: process.env.PUBLIC_URL + '/assets/images/solid-Wrap-dress.jpg',
+    image: process.env.PUBLIC_URL + '/assets/images/solid-wrap-dress.jpg',
   },
   {
     id: 3,
@@ -60,7 +60,7 @@ const products = [
       priceUGX: 200000,
       priceUSD: 55.82,
       category: 'jumpsuit',
-      image: process.env.PUBLIC_URL + '/assets/images/jude-jumpsuit-.webp',
+      image: process.env.PUBLIC_URL + '/assets/images/jude-jumpsuit.webp',
       },
       {
         id: 8,
@@ -92,7 +92,7 @@ const products = [
               priceUGX: 190000,
               priceUSD: 53.03,
               category: 'jumpsuit',
-              image: process.env.PUBLIC_URL + '/assets/images/lEEVLESS-jUMPSUIT.jpg',
+              image: process.env.PUBLIC_URL + '/assets/images/leevless-jumpsuit.jpg',
               },
               {
                 id: 12,
