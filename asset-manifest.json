@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/miss-ash/static/css/main.87fd2cd2.css",
-    "main.js": "/miss-ash/static/js/main.5d22f6ad.js",
+    "main.js": "/miss-ash/static/js/main.5a723af5.js",
     "static/js/453.0f78878c.chunk.js": "/miss-ash/static/js/453.0f78878c.chunk.js",
     "static/media/wall.PNG": "/miss-ash/static/media/wall.5a10308a9bc4256a5bbb.PNG",
     "index.html": "/miss-ash/index.html",
     "main.87fd2cd2.css.map": "/miss-ash/static/css/main.87fd2cd2.css.map",
-    "main.5d22f6ad.js.map": "/miss-ash/static/js/main.5d22f6ad.js.map",
+    "main.5a723af5.js.map": "/miss-ash/static/js/main.5a723af5.js.map",
     "453.0f78878c.chunk.js.map": "/miss-ash/static/js/453.0f78878c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87fd2cd2.css",
-    "static/js/main.5d22f6ad.js"
+    "static/js/main.5a723af5.js"
   ]
 }
